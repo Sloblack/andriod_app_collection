@@ -103,7 +103,6 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                // Logo o imagen (opcional)
                 const Icon(
                   Icons.account_circle,
                   size: 100,

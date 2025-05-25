@@ -72,8 +72,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   abrirLogin();
                 }
                 CircularProgressIndicator(
-                color: Colors.white,
-              );
+                  color: Colors.white,
+                );
               },
               style:ElevatedButton.styleFrom(
                 padding: const EdgeInsets.symmetric(horizontal: 102.0, vertical: 10.0),

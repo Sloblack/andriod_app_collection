@@ -33,10 +33,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   Future<bool> changePassword(String oldPassword, String newPassword) async {
-    final baseUrl = AppConfig.baseUrl; // Asegúrate de obtener la URL base del backend
+    final baseUrl = AppConfig.baseUrl;
     final prefs = await SharedPreferences.getInstance();
-    final userId = prefs.getString('userId'); // Asegúrate de guardar el userId al iniciar sesión
-    //final token = prefs.getString('token'); // Asegúrate de guardar el token al iniciar sesión
+    final userId = prefs.getString('userId');
+    //final token = prefs.getString('token');
 
     if (userId == null){ //|| token == null) {
       throw Exception('No se encontró información de usuario');
@@ -248,15 +248,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
               onPressed: _logout,
             ),
           ),
-          // const SizedBox(height: 16),
-          // Center(
-          //   child: Text('v1.0.0',
-          //     style: TextStyle(
-          //       color: Colors.grey[400],
-          //       fontSize: 12,
-          //     ),
-          //   ),
-          // ),
         ],
       ),
     );
