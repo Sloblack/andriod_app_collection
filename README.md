@@ -1,17 +1,33 @@
-# recollection_application
+# 📱 Aplicación Móvil - Sistema de Recolección de Residuos  
 
-A new Flutter project.
+Aplicación móvil desarrollada en **Flutter** para el **registro de la recolección de residuos**.  
+Los recolectores pueden escanear contenedores mediante **QR o NFC**, y los datos se sincronizan automáticamente con la nube para ser administrados en el dashboard web.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Características principales
+- 📲 Escaneo de **códigos QR** y lectura de **NFC**.  
+- 📍 Ubicación del contenedor en **mapa integrado**.  
+- 🔒 Autenticación por número de teléfono.  
+- 📡 Conexión con backend (NestJS API).  
+- 📜 Historial de recolecciones por usuario.  
+- 🌗 Interfaz compatible con **modo claro y oscuro**.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tecnologías utilizadas
+- **Flutter** (Dart)  
+- **Google Maps Flutter**  
+- **http** (consumo de API REST)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Collection_Application" 
+---
+
+## 📦 Instalación y ejecución
+
+```bash
+# Instalar dependencias
+flutter pub get
+
+# Ejecutar la aplicación
+flutter run
+```
